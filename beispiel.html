@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>PHP Beispiel</title>
+	</head>
+	<body>
+		<h1>Übungsbeispiel 1</h1>
+		<form action="suche.php" method="POST">
+			Marke: <select name="marke">
+				<option value="1">VW</option>
+				<option value="2">Audi</option>
+				<option value="3">Mercedes</option>
+				<option value="4">BMW</option>
+			</select>
+			<br>
+			Leistung: <input type="text" name="leistung">
+			<br>
+			<input type="submit" value="ABSENDEN">
+		</form>
+		<table border="1" cellspacing="0" cellpadding="3">
+			<tr>
+				<td>Marke</td>
+				<td>Modell</td>
+				<td>Leistung</td>
+			</tr>
+			<tr>
+				<td>VW</td>
+				<td>id5</td>
+				<td>75 KW</td>
+			</tr>
+			<tr>
+				<td>Audi</td>
+				<td>A6</td>
+				<td>100 KW</td>
+			</tr>
+		</table>
+	</body>
+</html>
